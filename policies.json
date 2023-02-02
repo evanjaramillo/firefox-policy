@@ -1,0 +1,62 @@
+{
+  "policies": {
+    "DisableFirefoxAccounts": true,
+    "DisableFirefoxStudies": true,
+    "DisableFormHistory": true,
+    "DisableMasterPasswordCreation": true,
+    "DisablePocket": true,
+    "DisableProfileImport": true,
+    "DisableTelemetry": true,
+    "DNSOverHTTPS": {
+      "Enabled": false
+    },
+    "DontCheckDefaultBrowser": true,
+    "EnableTrackingProtection": {
+      "Value": true,
+      "Locked": true,
+      "Cryptomining": true,
+      "Fingerprinting": true
+    },
+    "FirefoxHome": {
+      "Search": true,
+      "TopSites": false,
+      "SponsoredTopSites": false,
+      "Highlights": false,
+      "Pocket": false,
+      "SponsoredPocket": false,
+      "Snippets": false,
+      "Locked": true
+    },
+    "HardwareAcceleration": true,
+    "OfferToSaveLogins": false,
+    "OverrideFirstRunPage": "",
+    "OverridePostUpdatePage": "",
+    "PasswordManagerEnabled": false,
+    "Permissions": {
+      "Camera": {
+        "Allow": [],
+        "BlockNewRequests": true,
+        "Locked": true
+      },
+      "Microphone": {
+        "Allow": [],
+        "BlockNewRequests": true,
+        "Locked": true
+      },
+      "Location": {
+        "Allow": [],
+        "BlockNewRequests": true,
+        "Locked": true
+      },
+      "Notifications": {
+        "Allow": [],
+        "BlockNewRequests": true,
+        "Locked": true
+      },
+      "Autoplay": {
+        "Default": "block-audio",
+        "Locked": true
+      }
+    }
+  }
+}
