@@ -84,7 +84,6 @@
     },
     "SanitizeOnShutdown": {
       "Cache": true,
-      "Cookies": true,
       "Downloads": false,
       "FormData": true,
       "History": false,
