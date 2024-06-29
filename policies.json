@@ -35,17 +35,22 @@
     "ExtensionSettings": {
       "uBlock0@raymondhill.net": {
         "installation_mode": "force_installed",
-	"install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
-	"updates_disabled": false
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
+        "updates_disabled": false
+      },
+      "{74145f27-f039-47ce-a470-a662b129930a}": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/clearurls/latest.xpi",
+        "installation_mode": "force_installed",
+        "updates_disabled": false
       },
       "{446900e4-71c2-419f-a6a7-df9c091e268b}": {
         "installation_mode": "force_installed",
-	"install_url": "https://addons.mozilla.org/firefox/downloads/latest/bitwarden-password-manager/latest.xpi",
-	"updates_disabled": false
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/bitwarden-password-manager/latest.xpi",
+        "updates_disabled": false
       },
       "*": {
         "installation_mode": "blocked",
-	"blocked_install_message": "This extension has not been whitelisted."
+        "blocked_install_message": "This extension has not been whitelisted."
       }
     },
     "Permissions": {
@@ -99,6 +104,12 @@
       "UrlbarInterventions": false,
       "SkipOnboarding": true,
       "MoreFromMozilla": false
+    },
+    "Preferences": {
+      "browser.tabs.firefox-view": {
+        "Value": false,
+        "Status": "default"
+      }
     }
   }
 }
