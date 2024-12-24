@@ -143,57 +143,7 @@
     "Preferences": {
       "browser.uiCustomization.state": {
         "Status": "default",
-        "Value": {
-          "placements": {
-            "widget-overflow-fixed-list": [],
-            "unified-extensions-area": [],
-            "nav-bar": [
-              "back-button",
-              "forward-button",
-              "stop-reload-button",
-              "customizableui-special-spring1",
-              "urlbar-container",
-              "customizableui-special-spring2",
-              "save-to-pocket-button",
-              "downloads-button",
-              "fxa-toolbar-menu-button",
-              "unified-extensions-button",
-              "ublock0_raymondhill_net-browser-action",
-              "_446900e4-71c2-419f-a6a7-df9c091e268b_-browser-action",
-              "_74145f27-f039-47ce-a470-a662b129930a_-browser-action"
-            ],
-            "toolbar-menubar": [
-              "menubar-items"
-            ],
-            "TabsToolbar": [
-              "tabbrowser-tabs",
-              "new-tab-button",
-              "alltabs-button"
-            ],
-            "vertical-tabs": [],
-            "PersonalToolbar": [
-              "import-button",
-              "personal-bookmarks"
-            ]
-          },
-          "seen": [
-            "save-to-pocket-button",
-            "developer-button",
-            "ublock0_raymondhill_net-browser-action",
-            "_74145f27-f039-47ce-a470-a662b129930a_-browser-action",
-            "_446900e4-71c2-419f-a6a7-df9c091e268b_-browser-action"
-          ],
-          "dirtyAreaCache": [
-            "nav-bar",
-            "vertical-tabs",
-            "PersonalToolbar",
-            "toolbar-menubar",
-            "TabsToolbar",
-            "unified-extensions-area"
-          ],
-          "currentVersion": 20,
-          "newElementCount": 4
-        }
+	"Value": "{\"placements\":{\"widget-overflow-fixed-list\":[],\"unified-extensions-area\":[],\"nav-bar\":[\"back-button\",\"forward-button\",\"stop-reload-button\",\"home-button\",\"urlbar-container\",\"save-to-pocket-button\",\"downloads-button\",\"fxa-toolbar-menu-button\",\"ublock0_raymondhill_net-browser-action\",\"_446900e4-71c2-419f-a6a7-df9c091e268b_-browser-action\",\"_74145f27-f039-47ce-a470-a662b129930a_-browser-action\",\"unified-extensions-button\"],\"toolbar-menubar\":[\"menubar-items\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\"],\"vertical-tabs\":[],\"PersonalToolbar\":[\"personal-bookmarks\"]},\"seen\":[\"ublock0_raymondhill_net-browser-action\",\"_446900e4-71c2-419f-a6a7-df9c091e268b_-browser-action\",\"_74145f27-f039-47ce-a470-a662b129930a_-browser-action\",\"developer-button\"],\"dirtyAreaCache\":[\"unified-extensions-area\",\"nav-bar\",\"vertical-tabs\",\"TabsToolbar\"],\"currentVersion\":20,\"newElementCount\":4}"
       }
     }
   }
