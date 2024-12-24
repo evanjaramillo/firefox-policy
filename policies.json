@@ -15,7 +15,14 @@
       "Value": true,
       "Locked": true,
       "Cryptomining": true,
-      "Fingerprinting": true
+      "Fingerprinting": true,
+      "EmailTracking": true,
+      "Exceptions": [
+        "http://localhost",
+        "https://localhost",
+        "http://127.0.0.1",
+        "https://127.0.0.1"
+      ]
     },
     "FirefoxHome": {
       "Search": true,
@@ -27,11 +34,23 @@
       "Snippets": false,
       "Locked": true
     },
+    "FirefoxSuggest": {
+      "WebSuggestions": false,
+      "SponsoredSuggestions": false,
+      "ImproveSuggest": false,
+      "Locked": true
+    },
+    "Homepage": {
+      "URL": "https://duckduckgo.com/",
+      "StartPage": "homepage",
+      "Locked": false
+    },
     "HardwareAcceleration": true,
     "OfferToSaveLogins": false,
-    "OverrideFirstRunPage": "",
+    "OverrideFirstRunPage": "https://duckduckgo.com/",
     "OverridePostUpdatePage": "",
     "PasswordManagerEnabled": false,
+    "PostQuantumKeyAgreementEnabled": true,
     "ExtensionSettings": {
       "uBlock0@raymondhill.net": {
         "installation_mode": "force_installed",
@@ -89,6 +108,7 @@
     },
     "SanitizeOnShutdown": {
       "Cache": true,
+      "Cookies": true,
       "Downloads": false,
       "FormData": true,
       "History": false,
@@ -97,18 +117,83 @@
       "OfflineApps": true,
       "Locked": false
     },
+    "SearchEngines": {
+      "Remove": [
+        "Google",
+        "Amazon.com",
+        "Amazon.de",
+        "Bing",
+        "Wikipedia (de)",
+        "Wikipedia (en)",
+        "eBay",
+        "Twitter"
+      ],
+      "PreventInstalls": true,
+      "Default": "DuckDuckGo"
+    },
     "UserMessaging": {
       "WhatsNew": false,
       "ExtensionRecommendations": false,
       "FeatureRecommendations": false,
       "UrlbarInterventions": false,
       "SkipOnboarding": true,
-      "MoreFromMozilla": false
+      "MoreFromMozilla": false,
+      "FirefoxLabs": false
     },
     "Preferences": {
-      "browser.tabs.firefox-view": {
-        "Value": false,
-        "Status": "default"
+      "browser.uiCustomization.state": {
+        "Status": "default",
+        "Value": {
+          "placements": {
+            "widget-overflow-fixed-list": [],
+            "unified-extensions-area": [],
+            "nav-bar": [
+              "back-button",
+              "forward-button",
+              "stop-reload-button",
+              "customizableui-special-spring1",
+              "urlbar-container",
+              "customizableui-special-spring2",
+              "save-to-pocket-button",
+              "downloads-button",
+              "fxa-toolbar-menu-button",
+              "unified-extensions-button",
+              "ublock0_raymondhill_net-browser-action",
+              "_446900e4-71c2-419f-a6a7-df9c091e268b_-browser-action",
+              "_74145f27-f039-47ce-a470-a662b129930a_-browser-action"
+            ],
+            "toolbar-menubar": [
+              "menubar-items"
+            ],
+            "TabsToolbar": [
+              "tabbrowser-tabs",
+              "new-tab-button",
+              "alltabs-button"
+            ],
+            "vertical-tabs": [],
+            "PersonalToolbar": [
+              "import-button",
+              "personal-bookmarks"
+            ]
+          },
+          "seen": [
+            "save-to-pocket-button",
+            "developer-button",
+            "ublock0_raymondhill_net-browser-action",
+            "_74145f27-f039-47ce-a470-a662b129930a_-browser-action",
+            "_446900e4-71c2-419f-a6a7-df9c091e268b_-browser-action"
+          ],
+          "dirtyAreaCache": [
+            "nav-bar",
+            "vertical-tabs",
+            "PersonalToolbar",
+            "toolbar-menubar",
+            "TabsToolbar",
+            "unified-extensions-area"
+          ],
+          "currentVersion": 20,
+          "newElementCount": 4
+        }
       }
     }
   }
